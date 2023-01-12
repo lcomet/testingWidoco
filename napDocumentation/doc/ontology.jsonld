@@ -1,0 +1,476 @@
+[ {
+  "@id" : "_:genid1",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  }, {
+    "@id" : "http://purl.org/dc/terms/Agent"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Contributor1"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  }, {
+    "@id" : "http://purl.org/dc/terms/Agent"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Contributor2"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  }, {
+    "@id" : "http://purl.org/dc/terms/Agent"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Contributor3"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/nap/model/CatalogueRecord"
+    }, {
+      "@id" : "https://w3id.org/nap/model/NapMetadata"
+    } ]
+  } ]
+}, {
+  "@id" : "http://creativecommons.org/ns#license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/Agent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/contributor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty", "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/language",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/modified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty", "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/usageNote",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.apache.org/licenses/LICENSE-2.0",
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Apache License Version 2.0, January 2004"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#date",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/ns/dcat#contactPoint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/dcat#title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Organization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/homepage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://github.com/lcomet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://purl.org/dc/terms/Agent"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Lina Molinas Comet"
+  } ]
+}, {
+  "@id" : "https://w3id.org/nap/model/",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://creativecommons.org/ns#license" : [ {
+    "@id" : "http://www.apache.org/licenses/LICENSE-2.0"
+  } ],
+  "http://purl.org/dc/terms/contributor" : [ {
+    "@id" : "https://w3id.org/nap/model/_:genid-nodeid-genid-d6367bcc82b14c289215e225e00daec0-Contributor2"
+  }, {
+    "@id" : "https://w3id.org/nap/model/_:genid-nodeid-genid-d6367bcc82b14c289215e225e00daec0-Contributor3"
+  }, {
+    "@id" : "_:genid1"
+  }, {
+    "@id" : "_:genid2"
+  }, {
+    "@id" : "_:genid3"
+  } ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2022-01-11"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@id" : "https://github.com/lcomet"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2022-01-11"
+  } ],
+  "http://purl.org/dc/terms/publisher" : [ {
+    "@id" : "https://w3id.org/nap/model/NAPCORE"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "National Access Point Model"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "nap"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@value" : "https://w3id.org/nap/model/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This ontology defines the classes and properties describing metadata of the NAPCORE project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/nap/model/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "NAP National Access Point"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://w3id.org/nap/model/0.0.1"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "0.0.1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/nap/model/CatalogueRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Metadata about a metadata entry in a NAP."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "NAP entry"
+  } ]
+}, {
+  "@id" : "https://w3id.org/nap/model/Dataset",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Metadata about a data set or service on the NAP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Data set or service"
+  } ]
+}, {
+  "@id" : "https://w3id.org/nap/model/NAPCORE",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://purl.org/dc/terms/Agent"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Organization"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "National Access Point Coordination Organisation for Europe"
+  } ],
+  "http://xmlns.com/foaf/0.1/homepage" : [ {
+    "@id" : "https://napcore.eu"
+  } ]
+}, {
+  "@id" : "https://w3id.org/nap/model/NapMetadata",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Metadata about the NAP itself."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "NAP Metadata"
+  } ]
+}, {
+  "@id" : "https://w3id.org/nap/model/Private",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/nap/model/Visibility"
+  } ]
+}, {
+  "@id" : "https://w3id.org/nap/model/Public",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/nap/model/Visibility"
+  } ]
+}, {
+  "@id" : "https://w3id.org/nap/model/Visibility",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/nap/model/dataOwner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.org/vocab/vann/usageNote" : [ {
+    "@value" : "Mandatory"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Describes the entity that legally owns the data provided in a dataset or service. This entity is responsible for the content of the data, in particular, that the data fulfilles quality criteria (if applicable, see “Quality description” below) and/or corresponds to legal frameworks (if applicable, see “Legal frameworks” below).  The “Data Owner” will be in many cases identical with the “Publisher”. In this case, the contact data will be copied from the “Publisher” entry.  There might be also cases where a “Data Owner” contracts a third-party “Publisher” (e.g., an IT service company) to host and publish a data set.  This entity is the direct contact for the NAP operator or data-consuming NAP users, who have questions or issues about the contents of a dataset, for example. This information is mandatory, and should include, as a minimum, the name and email address of the entity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/nap/model/Dataset"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Data owner"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/dc/terms/creator"
+  } ]
+}, {
+  "@id" : "https://w3id.org/nap/model/date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://purl.org/vocab/vann/usageNote" : [ {
+    "@value" : "Mandatory"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Date stamp (date and time) when the current version of the metadata set was created or last modified. It will be generated by the system, whenever NAP user enters or updates the metadata entry."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/nap/model/CatalogueRecord"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Datetime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "https://w3id.org/nap/model/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://purl.org/vocab/vann/usageNote" : [ {
+    "@value" : "Mandatory"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Description about the catalogue record"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/nap/model/CatalogueRecord"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Description"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "https://w3id.org/nap/model/descriptionDataset",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://purl.org/vocab/vann/usageNote" : [ {
+    "@value" : "Mandatory"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Describes the data set or service in a generic term or short description. The author is encouraged to write a meaningful description. This field is only for a brief overview, because free text fields are unsuitable for searches, due to spelling mistakes, different wordings and other aspects. The categorisation of the data set or service is done within other fields (see below)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/nap/model/Dataset"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Dataset description"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "https://w3id.org/nap/model/language",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.org/vocab/vann/usageNote" : [ {
+    "@value" : "Mandatory"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This element indicates the language in which the metadata is described. Next to the national operators and publishers there are international operators which use their own language for descriptions. According to the ISO 639 standard part 2, there is a 3 letter code for 24 EU languages, which should be used.  At least one language has to be set, but it should be possible to select more than one language."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/nap/model/CatalogueRecord"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Language"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/dc/terms/language"
+  } ]
+}, {
+  "@id" : "https://w3id.org/nap/model/nameDataset",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://purl.org/vocab/vann/usageNote" : [ {
+    "@value" : "Mandatory"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Describes the data set or service in a generic term or short description. The author is encouraged to write a meaningful description. This field is only for a brief overview, because free text fields are unsuitable for searches, due to spelling mistakes, different wordings and other aspects. The categorisation of the data set or service is done within other fields (see below). "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/nap/model/Dataset"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Dataset name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "https://w3id.org/nap/model/nameNAP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.org/vocab/vann/usageNote" : [ {
+    "@value" : "Recommended"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The individual name of the NAP or data platform itself."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/nap/model/NapMetadata"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "NAP name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/ns/dcat#title"
+  } ]
+}, {
+  "@id" : "https://w3id.org/nap/model/pointOfContact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.org/vocab/vann/usageNote" : [ {
+    "@value" : "Mandatory"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Describes an organisation, if applicable a person, which is responsible for creation and maintenance of the NAP itself. This person or company is the direct contact for NAP users, who have questions or issues about the NAP system, for example. This information is mandatory and should correspond to the information in the disclaimer of the NAP website."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Contact point"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/ns/dcat#contactPoint"
+  } ]
+}, {
+  "@id" : "https://w3id.org/nap/model/publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.org/vocab/vann/usageNote" : [ {
+    "@value" : "Mandatory"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Describes an entity (company and person) that publishes the corresponding data set or service. This entity is responsible for the provisioning of a dataset or service. The entity also concludes a contract, if applicable. This entity is the direct contact for the NAP operator or data-consuming NAP users, who have questions or issues about the availability of a dataset, for example. This information is mandatory, and should include, as a minimum, the name and email address of the entity. The Publisher might be identical to the “Data Owner” (see below)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/nap/model/Dataset"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Dataset publisher"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/dc/terms/publisher"
+  } ]
+}, {
+  "@id" : "https://w3id.org/nap/model/uidData",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.org/vocab/vann/usageNote" : [ {
+    "@value" : "Mandatory"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Allows a unique identification of the individual data set or service, and is used for referencing, e.g., when exchanging metadata between NAPs. This UID can be numeric or alphanumeric."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/nap/model/Dataset"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Dataset identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/dc/terms/identifier"
+  } ]
+}, {
+  "@id" : "https://w3id.org/nap/model/uidNap",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.org/vocab/vann/usageNote" : [ {
+    "@value" : "Mandatory"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Allows a unique identification of the individual NAP or data platform , and is used for referencing, e.g., when exchanging metadata between NAPs. This UID can be numeric or alphanumeric."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/nap/model/NapMetadata"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "NAP identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/dc/terms/identifier"
+  } ]
+}, {
+  "@id" : "https://w3id.org/nap/model/visibility",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.org/vocab/vann/usageNote" : [ {
+    "@value" : "Recommended"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Describes the visibility status of a data set or data service publication on the NAP interface. It is used only for internal usage or administration via predefined keys such as “public” or “private”. “Public” means that the dataset or service can be retrieved by external NAP users, or that that the corresponding metadata can be exchanged. “Private” means that the dataset, the service and the metadata are only visible to the original data provider and the NAP operator; this might be the case for test publications, for example."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/nap/model/Dataset"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Dataset visibility"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/nap/model/Visibility"
+  } ]
+} ]

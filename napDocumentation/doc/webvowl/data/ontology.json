@@ -1,0 +1,741 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://purl.org/dc/terms", "http://www.w3.org/2001/XMLSchema", "https://w3id.org/nap/model", "http://www.w3.org/ns/dcat", "http://xmlns.com/foaf/0.1" ],
+    "title" : {
+      "en" : "National Access Point Model"
+    },
+    "iri" : "https://w3id.org/nap/model/",
+    "version" : "0.0.1",
+    "author" : [ "https://github.com/lcomet" ],
+    "labels" : {
+      "en" : "NAP National Access Point"
+    },
+    "comments" : {
+      "undefined" : "This ontology defines the classes and properties describing metadata of the NAPCORE project"
+    },
+    "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "http://www.apache.org/licenses/LICENSE-2.0",
+        "type" : "iri"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "https://github.com/lcomet",
+        "type" : "iri"
+      } ],
+      "contributor" : [ {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "_:genid2147483648",
+        "type" : "label"
+      }, {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "_:genid-nodeid-genid-d6367bcc82b14c289215e225e00daec0-Contributor2",
+        "type" : "iri"
+      }, {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "_:genid2147483650",
+        "type" : "label"
+      }, {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "_:genid-nodeid-genid-d6367bcc82b14c289215e225e00daec0-Contributor3",
+        "type" : "iri"
+      }, {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "_:genid2147483649",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/nap/model/",
+        "type" : "iri"
+      } ],
+      "created" : [ {
+        "identifier" : "created",
+        "language" : "undefined",
+        "value" : "2022-01-11",
+        "type" : "label"
+      } ],
+      "preferredNamespacePrefix" : [ {
+        "identifier" : "preferredNamespacePrefix",
+        "language" : "undefined",
+        "value" : "nap",
+        "type" : "label"
+      } ],
+      "publisher" : [ {
+        "identifier" : "publisher",
+        "language" : "undefined",
+        "value" : "https://w3id.org/nap/model/NAPCORE",
+        "type" : "iri"
+      } ],
+      "modified" : [ {
+        "identifier" : "modified",
+        "language" : "undefined",
+        "value" : "2022-01-11",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "https://w3id.org/nap/model/",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "0.0.1",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "National Access Point Model",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "9",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "11",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "12",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "13",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "14",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "18",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/ns/dcat#title",
+    "baseIri" : "http://www.w3.org/ns/dcat",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "title"
+    },
+    "attributes" : [ "external" ],
+    "id" : "2"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "8",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "9",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://purl.org/dc/terms/publisher",
+    "baseIri" : "http://purl.org/dc/terms",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "publisher"
+    },
+    "attributes" : [ "external" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "10",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "11",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "12",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "13",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "14",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "1", "16" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "17",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "https://w3id.org/nap/model/Dataset",
+    "baseIri" : "https://w3id.org/nap/model",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Dataset",
+      "en" : "Data set or service"
+    },
+    "comment" : {
+      "en" : "Metadata about a data set or service on the NAP"
+    },
+    "id" : "4"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Organization",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Organization"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/nap/model/NAPCORE",
+      "baseIri" : "https://w3id.org/nap/model",
+      "annotations" : {
+        "homepage" : [ {
+          "identifier" : "homepage",
+          "language" : "undefined",
+          "value" : "https://napcore.eu",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "NAPCORE",
+        "undefined" : "National Access Point Coordination Organisation for Europe"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.w3.org/ns/dcat#contactPoint",
+    "baseIri" : "http://www.w3.org/ns/dcat",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "contactPoint"
+    },
+    "attributes" : [ "external" ],
+    "id" : "20"
+  }, {
+    "iri" : "https://w3id.org/nap/model/NapMetadata",
+    "baseIri" : "https://w3id.org/nap/model",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NapMetadata",
+      "en" : "NAP Metadata"
+    },
+    "comment" : {
+      "en" : "Metadata about the NAP itself."
+    },
+    "id" : "1"
+  }, {
+    "iri" : "https://w3id.org/nap/model/CatalogueRecord",
+    "baseIri" : "https://w3id.org/nap/model",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CatalogueRecord",
+      "en" : "NAP entry"
+    },
+    "comment" : {
+      "en" : "Metadata about a metadata entry in a NAP."
+    },
+    "id" : "16"
+  }, {
+    "iri" : "http://purl.org/dc/terms/Agent",
+    "baseIri" : "http://purl.org/dc/terms",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Agent"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/nap/model/NAPCORE",
+      "baseIri" : "https://w3id.org/nap/model",
+      "annotations" : {
+        "homepage" : [ {
+          "identifier" : "homepage",
+          "language" : "undefined",
+          "value" : "https://napcore.eu",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "NAPCORE",
+        "undefined" : "National Access Point Coordination Organisation for Europe"
+      }
+    }, {
+      "iri" : "https://github.com/lcomet",
+      "baseIri" : "https://github.com",
+      "annotations" : {
+        "name" : [ {
+          "identifier" : "name",
+          "language" : "undefined",
+          "value" : "Lina Molinas Comet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "lcomet"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://purl.org/dc/terms/identifier",
+    "baseIri" : "http://purl.org/dc/terms",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "identifier"
+    },
+    "attributes" : [ "external" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://purl.org/dc/terms/creator",
+    "baseIri" : "http://purl.org/dc/terms",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "creator"
+    },
+    "attributes" : [ "external" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://purl.org/dc/terms/language",
+    "baseIri" : "http://purl.org/dc/terms",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "language"
+    },
+    "attributes" : [ "external" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Person",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Person"
+    },
+    "individuals" : [ {
+      "iri" : "https://github.com/lcomet",
+      "baseIri" : "https://github.com",
+      "annotations" : {
+        "name" : [ {
+          "identifier" : "name",
+          "language" : "undefined",
+          "value" : "Lina Molinas Comet",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "lcomet"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "33"
+  }, {
+    "iri" : "https://w3id.org/nap/model/Visibility",
+    "baseIri" : "https://w3id.org/nap/model",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Visibility"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/nap/model/Public",
+      "baseIri" : "https://w3id.org/nap/model",
+      "labels" : {
+        "IRI-based" : "Public"
+      }
+    }, {
+      "iri" : "https://w3id.org/nap/model/Private",
+      "baseIri" : "https://w3id.org/nap/model",
+      "labels" : {
+        "IRI-based" : "Private"
+      }
+    } ],
+    "id" : "27"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "3",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "6",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "21",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "23",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "28",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "31",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "https://w3id.org/nap/model/nameNAP",
+    "baseIri" : "https://w3id.org/nap/model",
+    "range" : "2",
+    "annotations" : {
+      "usageNote" : [ {
+        "identifier" : "usageNote",
+        "language" : "undefined",
+        "value" : "Recommended",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "nameNAP",
+      "en" : "NAP name"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "The individual name of the NAP or data platform itself."
+    },
+    "attributes" : [ "object" ],
+    "id" : "0"
+  }, {
+    "iri" : "https://w3id.org/nap/model/dataOwner",
+    "baseIri" : "https://w3id.org/nap/model",
+    "range" : "5",
+    "annotations" : {
+      "usageNote" : [ {
+        "identifier" : "usageNote",
+        "language" : "undefined",
+        "value" : "Mandatory",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "dataOwner",
+      "en" : "Data owner"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "Describes the entity that legally owns the data provided in a dataset or service. This entity is responsible for the content of the data, in particular, that the data fulfilles quality criteria (if applicable, see “Quality description” below) and/or corresponds to legal frameworks (if applicable, see “Legal frameworks” below).  The “Data Owner” will be in many cases identical with the “Publisher”. In this case, the contact data will be copied from the “Publisher” entry.  There might be also cases where a “Data Owner” contracts a third-party “Publisher” (e.g., an IT service company) to host and publish a data set.  This entity is the direct contact for the NAP operator or data-consuming NAP users, who have questions or issues about the contents of a dataset, for example. This information is mandatory, and should include, as a minimum, the name and email address of the entity."
+    },
+    "attributes" : [ "object" ],
+    "id" : "3"
+  }, {
+    "iri" : "https://w3id.org/nap/model/publisher",
+    "baseIri" : "https://w3id.org/nap/model",
+    "range" : "7",
+    "annotations" : {
+      "usageNote" : [ {
+        "identifier" : "usageNote",
+        "language" : "undefined",
+        "value" : "Mandatory",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "publisher",
+      "en" : "Dataset publisher"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "Describes an entity (company and person) that publishes the corresponding data set or service. This entity is responsible for the provisioning of a dataset or service. The entity also concludes a contract, if applicable. This entity is the direct contact for the NAP operator or data-consuming NAP users, who have questions or issues about the availability of a dataset, for example. This information is mandatory, and should include, as a minimum, the name and email address of the entity. The Publisher might be identical to the “Data Owner” (see below)."
+    },
+    "attributes" : [ "object" ],
+    "id" : "6"
+  }, {
+    "iri" : "https://w3id.org/nap/model/date",
+    "baseIri" : "https://w3id.org/nap/model",
+    "range" : "17",
+    "annotations" : {
+      "usageNote" : [ {
+        "identifier" : "usageNote",
+        "language" : "undefined",
+        "value" : "Mandatory",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "date",
+      "en" : "Datetime"
+    },
+    "domain" : "16",
+    "comment" : {
+      "en" : "Date stamp (date and time) when the current version of the metadata set was created or last modified. It will be generated by the system, whenever NAP user enters or updates the metadata entry."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "15"
+  }, {
+    "iri" : "https://w3id.org/nap/model/uidNap",
+    "baseIri" : "https://w3id.org/nap/model",
+    "range" : "22",
+    "annotations" : {
+      "usageNote" : [ {
+        "identifier" : "usageNote",
+        "language" : "undefined",
+        "value" : "Mandatory",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "uidNap",
+      "en" : "NAP identifier"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Allows a unique identification of the individual NAP or data platform , and is used for referencing, e.g., when exchanging metadata between NAPs. This UID can be numeric or alphanumeric."
+    },
+    "attributes" : [ "object" ],
+    "id" : "21"
+  }, {
+    "iri" : "https://w3id.org/nap/model/descriptionDataset",
+    "baseIri" : "https://w3id.org/nap/model",
+    "range" : "9",
+    "annotations" : {
+      "usageNote" : [ {
+        "identifier" : "usageNote",
+        "language" : "undefined",
+        "value" : "Mandatory",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "descriptionDataset",
+      "en" : "Dataset description"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Describes the data set or service in a generic term or short description. The author is encouraged to write a meaningful description. This field is only for a brief overview, because free text fields are unsuitable for searches, due to spelling mistakes, different wordings and other aspects. The categorisation of the data set or service is done within other fields (see below)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "23"
+  }, {
+    "iri" : "https://w3id.org/nap/model/pointOfContact",
+    "baseIri" : "https://w3id.org/nap/model",
+    "range" : "20",
+    "annotations" : {
+      "usageNote" : [ {
+        "identifier" : "usageNote",
+        "language" : "undefined",
+        "value" : "Mandatory",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "pointOfContact",
+      "en" : "Contact point"
+    },
+    "domain" : "18",
+    "comment" : {
+      "en" : "Describes an organisation, if applicable a person, which is responsible for creation and maintenance of the NAP itself. This person or company is the direct contact for NAP users, who have questions or issues about the NAP system, for example. This information is mandatory and should correspond to the information in the disclaimer of the NAP website."
+    },
+    "attributes" : [ "object" ],
+    "id" : "24"
+  }, {
+    "iri" : "https://w3id.org/nap/model/uidData",
+    "baseIri" : "https://w3id.org/nap/model",
+    "range" : "22",
+    "annotations" : {
+      "usageNote" : [ {
+        "identifier" : "usageNote",
+        "language" : "undefined",
+        "value" : "Mandatory",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "uidData",
+      "en" : "Dataset identifier"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "Allows a unique identification of the individual data set or service, and is used for referencing, e.g., when exchanging metadata between NAPs. This UID can be numeric or alphanumeric."
+    },
+    "attributes" : [ "object" ],
+    "id" : "25"
+  }, {
+    "iri" : "https://w3id.org/nap/model/visibility",
+    "baseIri" : "https://w3id.org/nap/model",
+    "range" : "27",
+    "annotations" : {
+      "usageNote" : [ {
+        "identifier" : "usageNote",
+        "language" : "undefined",
+        "value" : "Recommended",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "visibility",
+      "en" : "Dataset visibility"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "Describes the visibility status of a data set or data service publication on the NAP interface. It is used only for internal usage or administration via predefined keys such as “public” or “private”. “Public” means that the dataset or service can be retrieved by external NAP users, or that that the corresponding metadata can be exchanged. “Private” means that the dataset, the service and the metadata are only visible to the original data provider and the NAP operator; this might be the case for test publications, for example."
+    },
+    "attributes" : [ "object" ],
+    "id" : "26"
+  }, {
+    "iri" : "https://w3id.org/nap/model/language",
+    "baseIri" : "https://w3id.org/nap/model",
+    "range" : "29",
+    "annotations" : {
+      "usageNote" : [ {
+        "identifier" : "usageNote",
+        "language" : "undefined",
+        "value" : "Mandatory",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "language",
+      "en" : "Language"
+    },
+    "domain" : "16",
+    "comment" : {
+      "en" : "This element indicates the language in which the metadata is described. Next to the national operators and publishers there are international operators which use their own language for descriptions. According to the ISO 639 standard part 2, there is a 3 letter code for 24 EU languages, which should be used.  At least one language has to be set, but it should be possible to select more than one language."
+    },
+    "attributes" : [ "object" ],
+    "id" : "28"
+  }, {
+    "iri" : "https://w3id.org/nap/model/nameDataset",
+    "baseIri" : "https://w3id.org/nap/model",
+    "range" : "10",
+    "annotations" : {
+      "usageNote" : [ {
+        "identifier" : "usageNote",
+        "language" : "undefined",
+        "value" : "Mandatory",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "nameDataset",
+      "en" : "Dataset name"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Describes the data set or service in a generic term or short description. The author is encouraged to write a meaningful description. This field is only for a brief overview, because free text fields are unsuitable for searches, due to spelling mistakes, different wordings and other aspects. The categorisation of the data set or service is done within other fields (see below). "
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "31"
+  }, {
+    "iri" : "https://w3id.org/nap/model/description",
+    "baseIri" : "https://w3id.org/nap/model",
+    "range" : "8",
+    "annotations" : {
+      "usageNote" : [ {
+        "identifier" : "usageNote",
+        "language" : "undefined",
+        "value" : "Mandatory",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "description",
+      "en" : "Description"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Description about the catalogue record"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "32"
+  } ]
+}

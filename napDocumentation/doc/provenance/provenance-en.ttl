@@ -1,0 +1,22 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <> .
+<https://w3id.org/nap/model/0.0.1> a prov:Entity;
+	 dc:title "National Access Point Model";
+	 prov:wasAttributedTo <https://github.com/lcomet>;
+	 dc:creator <https://github.com/lcomet>;
+	 prov:wasAttributedTo <_:genid-nodeid-genid-d6367bcc82b14c289215e225e00daec0-Contributor2>;
+	 dc:contributor <_:genid-nodeid-genid-d6367bcc82b14c289215e225e00daec0-Contributor2>;
+	 prov:wasAttributedTo <_:genid-nodeid-genid-d6367bcc82b14c289215e225e00daec0-Contributor3>;
+	 dc:contributor <_:genid-nodeid-genid-d6367bcc82b14c289215e225e00daec0-Contributor3>;
+	 prov:wasAttributedTo :agent0;
+	 prov:wasAttributedTo :agent1;
+	 prov:wasAttributedTo :agent2;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+	 prov:specializationOf <https://w3id.org/nap/model/>;
+	 prov:wasGeneratedAt "2022-01-11";
+.
+:agent0 a prov:Agent; foaf:name "Contributor1".
+:agent1 a prov:Agent; foaf:name "Contributor2".
+:agent2 a prov:Agent; foaf:name "Contributor3".

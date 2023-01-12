@@ -1,0 +1,315 @@
+<https://w3id.org/nap/model/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/nap/model/> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/nap/model/0.0.1> .
+<https://w3id.org/nap/model/> <http://creativecommons.org/ns#license> <http://www.apache.org/licenses/LICENSE-2.0> .
+<https://w3id.org/nap/model/> <http://purl.org/dc/terms/contributor> <https://w3id.org/nap/model/_:genid-nodeid-genid-d6367bcc82b14c289215e225e00daec0-Contributor2> .
+<https://w3id.org/nap/model/> <http://purl.org/dc/terms/contributor> <https://w3id.org/nap/model/_:genid-nodeid-genid-d6367bcc82b14c289215e225e00daec0-Contributor3> .
+<https://w3id.org/nap/model/> <http://purl.org/dc/terms/contributor> _:genid1 .
+_:genid1 <http://xmlns.com/foaf/0.1/name> "Contributor1" .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Agent> .
+<http://purl.org/dc/terms/Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/nap/model/> <http://purl.org/dc/terms/contributor> _:genid2 .
+_:genid2 <http://xmlns.com/foaf/0.1/name> "Contributor2" .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Agent> .
+<https://w3id.org/nap/model/> <http://purl.org/dc/terms/contributor> _:genid3 .
+_:genid3 <http://xmlns.com/foaf/0.1/name> "Contributor3" .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Agent> .
+<https://w3id.org/nap/model/> <http://purl.org/dc/terms/created> "2022-01-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/nap/model/> <http://purl.org/dc/terms/creator> <https://github.com/lcomet> .
+<https://w3id.org/nap/model/> <http://purl.org/dc/terms/modified> "2022-01-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://w3id.org/nap/model/> <http://purl.org/dc/terms/publisher> <https://w3id.org/nap/model/NAPCORE> .
+<https://w3id.org/nap/model/> <http://purl.org/dc/terms/title> "National Access Point Model"@en .
+<https://w3id.org/nap/model/> <http://purl.org/vocab/vann/preferredNamespacePrefix> "nap" .
+<https://w3id.org/nap/model/> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/nap/model/" .
+<https://w3id.org/nap/model/> <http://www.w3.org/2000/01/rdf-schema#comment> "This ontology defines the classes and properties describing metadata of the NAPCORE project" .
+<https://w3id.org/nap/model/> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/nap/model/> .
+<https://w3id.org/nap/model/> <http://www.w3.org/2000/01/rdf-schema#label> "NAP National Access Point"@en .
+<https://w3id.org/nap/model/> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://creativecommons.org/ns#license
+<http://creativecommons.org/ns#license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/contributor
+<http://purl.org/dc/terms/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/modified
+<http://purl.org/dc/terms/modified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/usageNote
+<http://purl.org/vocab/vann/usageNote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xmlns.com/foaf/0.1/homepage
+<http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2001/XMLSchema#date
+<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/nap/model/dataOwner
+<https://w3id.org/nap/model/dataOwner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/nap/model/dataOwner> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/nap/model/Dataset> .
+<https://w3id.org/nap/model/dataOwner> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/creator> .
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/nap/model/dataOwner> <http://purl.org/vocab/vann/usageNote> "Mandatory" .
+<https://w3id.org/nap/model/dataOwner> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the entity that legally owns the data provided in a dataset or service. This entity is responsible for the content of the data, in particular, that the data fulfilles quality criteria (if applicable, see “Quality description” below) and/or corresponds to legal frameworks (if applicable, see “Legal frameworks” below).  The “Data Owner” will be in many cases identical with the “Publisher”. In this case, the contact data will be copied from the “Publisher” entry.  There might be also cases where a “Data Owner” contracts a third-party “Publisher” (e.g., an IT service company) to host and publish a data set.  This entity is the direct contact for the NAP operator or data-consuming NAP users, who have questions or issues about the contents of a dataset, for example. This information is mandatory, and should include, as a minimum, the name and email address of the entity."@en .
+<https://w3id.org/nap/model/dataOwner> <http://www.w3.org/2000/01/rdf-schema#label> "Data owner"@en .
+# 
+# https://w3id.org/nap/model/description
+<https://w3id.org/nap/model/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/nap/model/description> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/nap/model/CatalogueRecord> .
+# 
+# https://w3id.org/nap/model/descriptionDataset
+<https://w3id.org/nap/model/descriptionDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/nap/model/descriptionDataset> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/nap/model/Dataset> .
+# 
+# https://w3id.org/nap/model/language
+<https://w3id.org/nap/model/language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/nap/model/language> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/nap/model/CatalogueRecord> .
+<https://w3id.org/nap/model/language> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/language> .
+<http://purl.org/dc/terms/language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/nap/model/language> <http://purl.org/vocab/vann/usageNote> "Mandatory" .
+<https://w3id.org/nap/model/language> <http://www.w3.org/2000/01/rdf-schema#comment> "This element indicates the language in which the metadata is described. Next to the national operators and publishers there are international operators which use their own language for descriptions. According to the ISO 639 standard part 2, there is a 3 letter code for 24 EU languages, which should be used.  At least one language has to be set, but it should be possible to select more than one language."@en .
+<https://w3id.org/nap/model/language> <http://www.w3.org/2000/01/rdf-schema#label> "Language"@en .
+# 
+# https://w3id.org/nap/model/nameDataset
+<https://w3id.org/nap/model/nameDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/nap/model/nameDataset> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/nap/model/Dataset> .
+# 
+# https://w3id.org/nap/model/nameNAP
+<https://w3id.org/nap/model/nameNAP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/nap/model/nameNAP> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/nap/model/NapMetadata> .
+<https://w3id.org/nap/model/nameNAP> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#title> .
+<http://www.w3.org/ns/dcat#title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/nap/model/nameNAP> <http://purl.org/vocab/vann/usageNote> "Recommended" .
+<https://w3id.org/nap/model/nameNAP> <http://www.w3.org/2000/01/rdf-schema#comment> "The individual name of the NAP or data platform itself."@en .
+<https://w3id.org/nap/model/nameNAP> <http://www.w3.org/2000/01/rdf-schema#label> "NAP name"@en .
+# 
+# https://w3id.org/nap/model/pointOfContact
+<https://w3id.org/nap/model/pointOfContact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/nap/model/pointOfContact> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#unionOf> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/nap/model/NapMetadata> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/nap/model/CatalogueRecord> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/nap/model/pointOfContact> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#contactPoint> .
+<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/nap/model/pointOfContact> <http://purl.org/vocab/vann/usageNote> "Mandatory" .
+<https://w3id.org/nap/model/pointOfContact> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes an organisation, if applicable a person, which is responsible for creation and maintenance of the NAP itself. This person or company is the direct contact for NAP users, who have questions or issues about the NAP system, for example. This information is mandatory and should correspond to the information in the disclaimer of the NAP website."@en .
+<https://w3id.org/nap/model/pointOfContact> <http://www.w3.org/2000/01/rdf-schema#label> "Contact point"@en .
+# 
+# https://w3id.org/nap/model/publisher
+<https://w3id.org/nap/model/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/nap/model/publisher> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/nap/model/Dataset> .
+<https://w3id.org/nap/model/publisher> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/publisher> .
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/nap/model/publisher> <http://purl.org/vocab/vann/usageNote> "Mandatory" .
+<https://w3id.org/nap/model/publisher> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes an entity (company and person) that publishes the corresponding data set or service. This entity is responsible for the provisioning of a dataset or service. The entity also concludes a contract, if applicable. This entity is the direct contact for the NAP operator or data-consuming NAP users, who have questions or issues about the availability of a dataset, for example. This information is mandatory, and should include, as a minimum, the name and email address of the entity. The Publisher might be identical to the “Data Owner” (see below)."@en .
+<https://w3id.org/nap/model/publisher> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset publisher"@en .
+# 
+# https://w3id.org/nap/model/uidData
+<https://w3id.org/nap/model/uidData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/nap/model/uidData> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/nap/model/Dataset> .
+<https://w3id.org/nap/model/uidData> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/identifier> .
+<http://purl.org/dc/terms/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/nap/model/uidData> <http://purl.org/vocab/vann/usageNote> "Mandatory" .
+<https://w3id.org/nap/model/uidData> <http://www.w3.org/2000/01/rdf-schema#comment> "Allows a unique identification of the individual data set or service, and is used for referencing, e.g., when exchanging metadata between NAPs. This UID can be numeric or alphanumeric."@en .
+<https://w3id.org/nap/model/uidData> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset identifier"@en .
+# 
+# https://w3id.org/nap/model/uidNap
+<https://w3id.org/nap/model/uidNap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/nap/model/uidNap> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/nap/model/NapMetadata> .
+<https://w3id.org/nap/model/uidNap> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/identifier> .
+<https://w3id.org/nap/model/uidNap> <http://purl.org/vocab/vann/usageNote> "Mandatory" .
+<https://w3id.org/nap/model/uidNap> <http://www.w3.org/2000/01/rdf-schema#comment> "Allows a unique identification of the individual NAP or data platform , and is used for referencing, e.g., when exchanging metadata between NAPs. This UID can be numeric or alphanumeric."@en .
+<https://w3id.org/nap/model/uidNap> <http://www.w3.org/2000/01/rdf-schema#label> "NAP identifier"@en .
+# 
+# https://w3id.org/nap/model/visibility
+<https://w3id.org/nap/model/visibility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/nap/model/visibility> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/nap/model/Dataset> .
+<https://w3id.org/nap/model/visibility> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/nap/model/Visibility> .
+<https://w3id.org/nap/model/visibility> <http://purl.org/vocab/vann/usageNote> "Recommended" .
+<https://w3id.org/nap/model/visibility> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the visibility status of a data set or data service publication on the NAP interface. It is used only for internal usage or administration via predefined keys such as “public” or “private”. “Public” means that the dataset or service can be retrieved by external NAP users, or that that the corresponding metadata can be exchanged. “Private” means that the dataset, the service and the metadata are only visible to the original data provider and the NAP operator; this might be the case for test publications, for example."@en .
+<https://w3id.org/nap/model/visibility> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset visibility"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/nap/model/date
+<https://w3id.org/nap/model/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/nap/model/date> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/nap/model/CatalogueRecord> .
+<https://w3id.org/nap/model/date> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://w3id.org/nap/model/date> <http://purl.org/vocab/vann/usageNote> "Mandatory" .
+<https://w3id.org/nap/model/date> <http://www.w3.org/2000/01/rdf-schema#comment> "Date stamp (date and time) when the current version of the metadata set was created or last modified. It will be generated by the system, whenever NAP user enters or updates the metadata entry."@en .
+<https://w3id.org/nap/model/date> <http://www.w3.org/2000/01/rdf-schema#label> "Datetime"@en .
+# 
+# https://w3id.org/nap/model/description
+<https://w3id.org/nap/model/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/nap/model/description> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# https://w3id.org/nap/model/descriptionDataset
+<https://w3id.org/nap/model/descriptionDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/nap/model/descriptionDataset> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# https://w3id.org/nap/model/nameDataset
+<https://w3id.org/nap/model/nameDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/nap/model/nameDataset> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/Agent
+# 
+# http://purl.org/dc/terms/creator
+# 
+# http://purl.org/dc/terms/identifier
+# 
+# http://purl.org/dc/terms/language
+# 
+# http://purl.org/dc/terms/publisher
+# 
+# http://www.w3.org/ns/dcat#contactPoint
+# 
+# http://www.w3.org/ns/dcat#title
+# 
+# http://xmlns.com/foaf/0.1/Organization
+<http://xmlns.com/foaf/0.1/Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://xmlns.com/foaf/0.1/Person
+# 
+# https://w3id.org/nap/model/CatalogueRecord
+<https://w3id.org/nap/model/CatalogueRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/nap/model/CatalogueRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "Metadata about a metadata entry in a NAP."@en .
+<https://w3id.org/nap/model/CatalogueRecord> <http://www.w3.org/2000/01/rdf-schema#label> "NAP entry"@en .
+# 
+# https://w3id.org/nap/model/Dataset
+<https://w3id.org/nap/model/Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/nap/model/Dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "Metadata about a data set or service on the NAP"@en .
+<https://w3id.org/nap/model/Dataset> <http://www.w3.org/2000/01/rdf-schema#label> "Data set or service"@en .
+# 
+# https://w3id.org/nap/model/NapMetadata
+<https://w3id.org/nap/model/NapMetadata> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/nap/model/NapMetadata> <http://www.w3.org/2000/01/rdf-schema#comment> "Metadata about the NAP itself."@en .
+<https://w3id.org/nap/model/NapMetadata> <http://www.w3.org/2000/01/rdf-schema#label> "NAP Metadata"@en .
+# 
+# https://w3id.org/nap/model/Visibility
+<https://w3id.org/nap/model/Visibility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://github.com/lcomet
+<https://github.com/lcomet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://github.com/lcomet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Agent> .
+<https://github.com/lcomet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<https://github.com/lcomet> <http://xmlns.com/foaf/0.1/name> "Lina Molinas Comet" .
+# 
+# https://w3id.org/nap/model/NAPCORE
+<https://w3id.org/nap/model/NAPCORE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/nap/model/NAPCORE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/Agent> .
+<https://w3id.org/nap/model/NAPCORE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<https://w3id.org/nap/model/NAPCORE> <http://www.w3.org/2000/01/rdf-schema#label> "National Access Point Coordination Organisation for Europe" .
+<https://w3id.org/nap/model/NAPCORE> <http://xmlns.com/foaf/0.1/homepage> <https://napcore.eu> .
+# 
+# https://w3id.org/nap/model/Private
+<https://w3id.org/nap/model/Private> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/nap/model/Private> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/nap/model/Visibility> .
+# 
+# https://w3id.org/nap/model/Public
+<https://w3id.org/nap/model/Public> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/nap/model/Public> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/nap/model/Visibility> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<http://www.apache.org/licenses/LICENSE-2.0> <http://www.w3.org/2000/01/rdf-schema#label> "Apache License Version 2.0, January 2004" .
+# 
+<https://w3id.org/nap/model/description> <http://purl.org/vocab/vann/usageNote> "Mandatory" .
+<https://w3id.org/nap/model/description> <http://www.w3.org/2000/01/rdf-schema#comment> "Description about the catalogue record"@en .
+<https://w3id.org/nap/model/description> <http://www.w3.org/2000/01/rdf-schema#label> "Description"@en .
+# 
+<https://w3id.org/nap/model/descriptionDataset> <http://purl.org/vocab/vann/usageNote> "Mandatory" .
+<https://w3id.org/nap/model/descriptionDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the data set or service in a generic term or short description. The author is encouraged to write a meaningful description. This field is only for a brief overview, because free text fields are unsuitable for searches, due to spelling mistakes, different wordings and other aspects. The categorisation of the data set or service is done within other fields (see below)."@en .
+<https://w3id.org/nap/model/descriptionDataset> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset description"@en .
+# 
+<https://w3id.org/nap/model/nameDataset> <http://purl.org/vocab/vann/usageNote> "Mandatory" .
+<https://w3id.org/nap/model/nameDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the data set or service in a generic term or short description. The author is encouraged to write a meaningful description. This field is only for a brief overview, because free text fields are unsuitable for searches, due to spelling mistakes, different wordings and other aspects. The categorisation of the data set or service is done within other fields (see below). "@en .
+<https://w3id.org/nap/model/nameDataset> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset name"@en .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

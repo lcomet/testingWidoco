@@ -1,0 +1,198 @@
+@prefix nap: <https://w3id.org/nap/model/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix cc:   <http://creativecommons.org/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+## Ontology's Information
+# ------------------------
+nap:
+    a owl:Ontology ;
+    rdfs:isDefinedBy <https://w3id.org/nap/model/> ;
+    rdfs:label "NAP National Access Point"@en ;
+    dct:title "National Access Point Model"@en ;
+    rdfs:comment "This ontology defines the classes and properties describing metadata of the NAPCORE project" ;
+    cc:license <http://www.apache.org/licenses/LICENSE-2.0> ;
+    dct:creator
+       <https://github.com/lcomet> ;
+    dct:contributor
+       _:Contributor1,
+       _:Contributor2,
+       _:Contributor3;
+    dct:publisher nap:NAPCORE ;
+    dct:created "2022-01-11"^^xsd:date ;
+    dct:modified "2022-01-11"^^xsd:date ;
+    owl:versionInfo "0.0.1" ;
+    owl:versionIRI <https://w3id.org/nap/model/0.0.1> ;
+    vann:preferredNamespaceUri "https://w3id.org/nap/model/" ;
+    vann:preferredNamespacePrefix "nap" 
+.
+
+<http://www.apache.org/licenses/LICENSE-2.0>
+    rdfs:label "Apache License Version 2.0, January 2004" ;
+.
+
+nap:NAPCORE
+    a dct:Agent, foaf:Organization ;
+    foaf:homepage <https://napcore.eu> ;
+    rdfs:label "National Access Point Coordination Organisation for Europe" ;
+.
+
+<https://github.com/lcomet> a dct:Agent, foaf:Person ;
+    foaf:name "Lina Molinas Comet" ;
+.
+
+_:Contributor1 a dct:Agent, foaf:Person ;
+    foaf:name "Contributor1" ;
+.
+
+_:Contributor2 a dct:Agent, foaf:Person ;
+    foaf:name "Contributor2" ;
+.
+
+_:Contributor3 a dct:Agent, foaf:Person ;
+    foaf:name "Contributor3" ;
+.
+
+## Classes Definition
+# ------------------------
+
+nap:NapMetadata
+    a owl:Class;
+    rdfs:label "NAP Metadata"@en ;
+    rdfs:comment "Metadata about the NAP itself."@en .
+
+nap:CatalogueRecord
+    a owl:Class;
+    rdfs:label "NAP entry"@en ;
+    rdfs:comment "Metadata about a metadata entry in a NAP."@en .
+
+nap:Dataset a owl:Class ;
+    rdfs:label "Data set or service"@en;
+    rdfs:comment "Metadata about a data set or service on the NAP"@en .
+
+nap:Dataset a owl:Class ;
+    rdfs:label "Data set or service"@en;
+    rdfs:comment "Metadata about a data set or service on the NAP"@en .
+
+nap:Visibility rdf:type owl:Class .
+
+## ObjectType Properties Definition
+# ---------------------------------
+
+nap:uidNap
+    a owl:ObjectProperty;
+    rdfs:domain nap:NapMetadata;
+    rdfs:range dct:identifier;
+    rdfs:label "NAP identifier"@en;
+    vann:usageNote "Mandatory";
+    rdfs:comment "Allows a unique identification of the individual NAP or data platform , and is used for referencing, e.g., when exchanging metadata between NAPs. This UID can be numeric or alphanumeric."@en.
+
+nap:nameNAP
+    a owl:ObjectProperty;
+    rdfs:domain nap:NapMetadata;
+    rdfs:range dcat:title;
+    rdfs:label "NAP name"@en;
+    vann:usageNote "Recommended";
+    rdfs:comment "The individual name of the NAP or data platform itself."@en.
+
+nap:pointOfContact
+    a owl:ObjectProperty;
+    rdfs:domain [
+      a owl:Class ;
+      owl:unionOf (
+          nap:NapMetadata
+          nap:CatalogueRecord
+        ) ;
+    ];
+    rdfs:range dcat:contactPoint;
+    rdfs:label "Contact point"@en;
+    vann:usageNote "Mandatory";
+    rdfs:comment "Describes an organisation, if applicable a person, which is responsible for creation and maintenance of the NAP itself. This person or company is the direct contact for NAP users, who have questions or issues about the NAP system, for example. This information is mandatory and should correspond to the information in the disclaimer of the NAP website."@en.
+
+nap:language
+    a owl:ObjectProperty;
+    rdfs:domain nap:CatalogueRecord;
+    rdfs:range dct:language;
+    rdfs:label "Language"@en;
+    vann:usageNote "Mandatory";
+    rdfs:comment "This element indicates the language in which the metadata is described. Next to the national operators and publishers there are international operators which use their own language for descriptions. According to the ISO 639 standard part 2, there is a 3 letter code for 24 EU languages, which should be used.  At least one language has to be set, but it should be possible to select more than one language."@en.
+
+nap:description
+    a owl:ObjectProperty;
+    rdfs:domain nap:CatalogueRecord;
+    rdfs:range rdfs:Literal;
+    rdfs:label "Description"@en;
+    vann:usageNote "Mandatory";
+    rdfs:comment "Description about the catalogue record"@en.
+
+nap:uidData
+    a owl:ObjectProperty;
+    rdfs:domain nap:Dataset;
+    rdfs:range dct:identifier;
+    rdfs:label "Dataset identifier"@en;
+    vann:usageNote "Mandatory";
+    rdfs:comment "Allows a unique identification of the individual data set or service, and is used for referencing, e.g., when exchanging metadata between NAPs. This UID can be numeric or alphanumeric."@en.
+
+nap:visibility
+    a owl:ObjectProperty;
+    rdfs:domain nap:Dataset;
+    rdfs:range nap:Visibility;
+    rdfs:label "Dataset visibility"@en;
+    vann:usageNote "Recommended";
+    rdfs:comment "Describes the visibility status of a data set or data service publication on the NAP interface. It is used only for internal usage or administration via predefined keys such as “public” or “private”. “Public” means that the dataset or service can be retrieved by external NAP users, or that that the corresponding metadata can be exchanged. “Private” means that the dataset, the service and the metadata are only visible to the original data provider and the NAP operator; this might be the case for test publications, for example."@en.
+
+nap:nameDataset
+    a owl:ObjectProperty;
+    rdfs:domain nap:Dataset;
+    rdfs:range rdfs:Literal;
+    rdfs:label "Dataset name"@en;
+    vann:usageNote "Mandatory";
+    rdfs:comment "Describes the data set or service in a generic term or short description. The author is encouraged to write a meaningful description. This field is only for a brief overview, because free text fields are unsuitable for searches, due to spelling mistakes, different wordings and other aspects. The categorisation of the data set or service is done within other fields (see below). "@en.
+
+nap:descriptionDataset
+    a owl:ObjectProperty;
+    rdfs:domain nap:Dataset;
+    rdfs:range rdfs:Literal;
+    rdfs:label "Dataset description"@en;
+    vann:usageNote "Mandatory";
+    rdfs:comment "Describes the data set or service in a generic term or short description. The author is encouraged to write a meaningful description. This field is only for a brief overview, because free text fields are unsuitable for searches, due to spelling mistakes, different wordings and other aspects. The categorisation of the data set or service is done within other fields (see below)."@en.
+
+nap:publisher
+    a owl:ObjectProperty;
+    rdfs:domain nap:Dataset;
+    rdfs:range dct:publisher;
+    rdfs:label "Dataset publisher"@en;
+    vann:usageNote "Mandatory";
+    rdfs:comment "Describes an entity (company and person) that publishes the corresponding data set or service. This entity is responsible for the provisioning of a dataset or service. The entity also concludes a contract, if applicable. This entity is the direct contact for the NAP operator or data-consuming NAP users, who have questions or issues about the availability of a dataset, for example. This information is mandatory, and should include, as a minimum, the name and email address of the entity. The Publisher might be identical to the “Data Owner” (see below)."@en.
+
+nap:dataOwner
+    a owl:ObjectProperty;
+    rdfs:domain nap:Dataset;
+    rdfs:range dct:creator;
+    rdfs:label "Data owner"@en;
+    vann:usageNote "Mandatory";
+    rdfs:comment "Describes the entity that legally owns the data provided in a dataset or service. This entity is responsible for the content of the data, in particular, that the data fulfilles quality criteria (if applicable, see “Quality description” below) and/or corresponds to legal frameworks (if applicable, see “Legal frameworks” below).  The “Data Owner” will be in many cases identical with the “Publisher”. In this case, the contact data will be copied from the “Publisher” entry.  There might be also cases where a “Data Owner” contracts a third-party “Publisher” (e.g., an IT service company) to host and publish a data set.  This entity is the direct contact for the NAP operator or data-consuming NAP users, who have questions or issues about the contents of a dataset, for example. This information is mandatory, and should include, as a minimum, the name and email address of the entity."@en.
+
+## Datatype Properties Definition
+# -------------------------------
+nap:date
+    a owl:DatatypeProperty;
+    rdfs:domain nap:CatalogueRecord;
+    rdfs:range xsd:dateTime;
+    rdfs:label "Datetime"@en;
+    vann:usageNote "Mandatory";
+    rdfs:comment "Date stamp (date and time) when the current version of the metadata set was created or last modified. It will be generated by the system, whenever NAP user enters or updates the metadata entry."@en.
+
+
+# Individuals Definition
+#-----------------------
+                                    
+nap:Private  a owl:NamedIndividual , nap:Visibility .
+nap:Public  a  owl:NamedIndividual , nap:Visibility .
